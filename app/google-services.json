@@ -1,0 +1,36 @@
+{
+  "_comment": "⚠️ استبدل هذا الملف بملف google-services.json الحقيقي من Firebase Console",
+  "_instructions": [
+    "1. اذهب إلى https://console.firebase.google.com",
+    "2. اختر مشروعك → Project Settings",
+    "3. في قسم Your apps → Android app",
+    "4. حمّل ملف google-services.json",
+    "5. ضعه هنا في android/app/google-services.json"
+  ],
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "YOUR_MOBILESDK_APP_ID",
+        "android_client_info": {
+          "package_name": "com.example.firebase_app"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
