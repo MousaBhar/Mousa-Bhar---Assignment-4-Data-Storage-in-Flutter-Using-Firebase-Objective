@@ -18,7 +18,6 @@ class DefaultFirebaseOptions {
     }
   }
 
-  // ⬇️ استبدل هذه القيم بالقيم من Firebase Console الخاص بك
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'YOUR_WEB_API_KEY',
     appId: 'YOUR_WEB_APP_ID',
