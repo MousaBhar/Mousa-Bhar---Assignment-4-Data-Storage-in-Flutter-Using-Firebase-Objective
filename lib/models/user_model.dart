@@ -1,7 +1,4 @@
-// =====================================================================
-// models/user_model.dart
-// MVC Pattern - Model (من Chapter 6: Use model and classes for MVC Pattern)
-// =====================================================================
+
 
 class UserModel {
   final String? id;
@@ -14,8 +11,6 @@ class UserModel {
     required this.email,
   });
 
-  // Named constructor - من Chapter 6: "Named constructor"
-  // Add() get a map for writing in firebase
   Map<String, dynamic> toMap() {
     return {
       'name': name,
@@ -23,7 +18,6 @@ class UserModel {
     };
   }
 
-  // Named constructor لاستخراج البيانات من Firebase
   factory UserModel.fromMap(String id, Map<String, dynamic> map) {
     return UserModel(
       id: id,
